@@ -6,6 +6,7 @@
     angular.module('todoApp').controller('TodoController', TodoController);
 
     //This is the application controller
+    //ciao
     function TodoController(storageService, $mdDialog) {
         var vm = this;
 
