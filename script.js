@@ -67,6 +67,8 @@
                 .title('Add new task')
                 .placeholder('Your task title...')
                 .ariaLabel('Your task title...')
+                .placeholder('descrizione...')
+                .ariaLabel('descrizione...')
                 .targetEvent(ev)
                 .ok('Add')
                 .cancel('Cancel');
